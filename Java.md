@@ -1,5 +1,5 @@
-## Java developer interview questions 
-### Core Java
+# Java developer interview questions 
+## Core Java
 
 1. **What are the main features of Java?**
     - **Answer**: The main features of Java include object-oriented, platform-independent, simple, secure, architecture-neutral, portable, robust, multithreaded, interpreted, high performance, distributed, and dynamic.
@@ -61,8 +61,8 @@
 20. **Explain the concept of packages in Java.**
     - **Answer**: Packages are namespaces that organize classes and interfaces, preventing naming conflicts and allowing controlled access. They are declared using the `package` keyword and imported using the `import` keyword.
 
-### Multithreading and Concurrency
-### Core Java
+## Multithreading and Concurrency
+
 
 21. **What is the difference between a process and a thread in Java?**
     - **Answer**: A process is an independent execution unit with its own memory space, while a thread is a smaller execution unit within a process that shares the process's memory and resources. Threads within the same process can communicate directly, whereas processes must use inter-process communication (IPC).
@@ -223,9 +223,8 @@
     }
     ```
 
-### Collections Framework
+## Collections Framework
 
-### Core Java
 
 31. **What is the Collections Framework in Java?**
     - **Answer**: The Java Collections Framework is a set of classes and interfaces that implement commonly reusable collection data structures. It includes interfaces like `List`, `Set`, and `Map`, and classes like `ArrayList`, `HashSet`, and `HashMap`. It provides algorithms to manipulate collections and standardizes the way collections are handled in Java.
