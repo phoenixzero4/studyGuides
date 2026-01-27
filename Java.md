@@ -307,7 +307,6 @@
     ```
 ### Java 8 Features
 
-### Core Java
 
 41. **Can you explain lambda expressions in Java 8?**
     - **Answer**: Lambda expressions provide a clear and concise way to represent a method interface using an expression. They enable functional programming, allowing you to write less boilerplate code. Lambda expressions are used primarily to define the behavior of functional interfaces.
@@ -411,9 +410,7 @@
     List<String> collectedNames = names.stream().collect(toListCollector);
     ```
 
-### Design Patterns
-
-### Design Patterns
+## Design Patterns
 
 51. **What are design patterns, and why are they useful?**
     - **Answer**: Design patterns are proven solutions to common problems in software design. They provide templates for solving similar problems and promote best practices, making code more flexible, reusable, and maintainable.
@@ -701,9 +698,8 @@
     ```
 
 
-### Spring Framework
+## Spring Framework
 
-### Spring Framework
 
 61. **What is the Spring Framework, and what problem does it solve?**
     - **Answer**: The Spring Framework is a comprehensive framework for enterprise Java development. It solves problems related to enterprise application development by providing infrastructure support for developing Java applications. It enables developers to build applications from plain old Java objects (POJOs) and to apply enterprise services non-invasively to POJOs. This capability applies to the Java SE programming model and to full and partial Java EE.
@@ -787,8 +783,7 @@
     }
     ```
 
-### Hibernate
-### Hibernate ORM
+## Hibernate ORM
 
 71. **What is Hibernate ORM, and what problem does it solve?**
     - **Answer**: Hibernate ORM (Object-Relational Mapping) is a framework for mapping an object-oriented domain model to a relational database. It solves the problem of impedance mismatch by providing a layer that allows developers to work with objects in Java while interacting with the underlying database in an abstract way.
@@ -909,7 +904,7 @@
     }
     ```
 
-### Advanced Topics
+## Advanced Topics
 
 ### Java Memory and Annotations
 
@@ -964,7 +959,7 @@
 90. **Explain the role of the `DriverManager` class in JDBC.**
     - **Answer**: `DriverManager` is a class in JDBC that manages a list of database drivers. It is responsible for establishing a connection to the database by selecting an appropriate driver from the registered drivers. It provides methods like `getConnection()` to obtain a database connection.
 
-### Miscellaneous
+## Miscellaneous
 ### Unit Testing and Java Concepts
 
 91. **What are unit testing and how is it implemented in Java?**
