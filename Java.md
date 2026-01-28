@@ -960,9 +960,9 @@
     - **Answer**: `DriverManager` is a class in JDBC that manages a list of database drivers. It is responsible for establishing a connection to the database by selecting an appropriate driver from the registered drivers. It provides methods like `getConnection()` to obtain a database connection.
 
 ## Miscellaneous
-### Unit Testing and Java Concepts
+### Unit Testing and other Java Concepts
 
-91. **What are unit testing and how is it implemented in Java?**
+91. **What is unit testing and how is it implemented in Java?**
     - **Answer**: Unit testing involves testing individual components of a program in isolation to ensure they work as intended. In Java, it is typically implemented using testing frameworks such as JUnit or TestNG. Tests are written in classes annotated with `@Test`, and assertions are used to verify expected outcomes.
 
     ```java
@@ -978,7 +978,7 @@
     }
     ```
 
-92. **Can you explain the difference between JUnit and TestNG?**
+92. **Explain the difference between JUnit and TestNG?**
     - **Answer**: JUnit and TestNG are both testing frameworks, but they have some differences:
         - **JUnit**: Focuses on simplicity and has annotations like `@Test`, `@Before`, `@After`, etc. JUnit 5 supports more advanced features and customization.
         - **TestNG**: Provides more flexibility with features like parallel test execution, data-driven testing, and more extensive configuration options. It supports annotations like `@Test`, `@BeforeMethod`, `@AfterMethod`, etc.
@@ -1010,7 +1010,7 @@
         - **Error**: Represents serious problems that a reasonable application should not try to catch, such as `OutOfMemoryError`.
         - **Exception**: Represents conditions that a program should handle. Exceptions are further divided into checked exceptions (e.g., `IOException`) and unchecked exceptions (e.g., `NullPointerException`).
 
-97. **What is the difference between checked and unchecked exceptions?**
+97. **What is the difference between a checked and an unchecked exception?**
     - **Answer**:
         - **Checked Exceptions**: Must be either caught or declared in the method signature using `throws`. Examples include `IOException` and `SQLException`.
         - **Unchecked Exceptions**: Do not need to be explicitly handled or declared. They are subclasses of `RuntimeException`, such as `ArithmeticException` and `NullPointerException`.
