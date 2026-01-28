@@ -2,4 +2,6 @@
 
 ### Java
 
-``` Remove all digits from a String in less than O(n) time ```
+```Java
+ Remove all digits from a String in less than O(n) time
+  ```
